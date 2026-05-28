@@ -1,0 +1,20 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Claude Code local artifacts
+.claude/logs/
+.claude/settings.local.json
+
+# Contact lists / PII — campaign data stays local
+clients/**/lists/*.csv
+clients/**/campaigns/**/list.csv
+clients/**/campaigns/**/*.csv
+
+# Dependencies
+node_modules/

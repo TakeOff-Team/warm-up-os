@@ -1,0 +1,19 @@
+# CODEOWNERS — folder-level review for Warm-Up-OS
+#
+# Uncomment and replace the placeholder handles with real GitHub usernames/teams.
+# Anyone listed here is auto-requested for review on PRs touching that path,
+# and (with branch protection on main) must approve before merge.
+#
+# Docs: https://docs.github.com/articles/about-code-owners
+#
+# Default owner for everything:
+# *                     @warm-up-lead
+#
+# The institutional brain — only senior operators edit:
+# /wiki/                @warm-up-lead
+#
+# Skills + automations — review-gated:
+# /.claude/             @warm-up-lead
+#
+# Per-client context — owned by whoever runs that client:
+# /clients/             @warm-up-lead
