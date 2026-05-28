@@ -8,6 +8,7 @@ Content catalog. If you don't know where something is, search here first.
 
 | Topic | Where it lives |
 |-------|----------------|
+| How to start a new build (plan first) | `PLANNING.md` |
 | What Warm Up actually does | `wiki/services.md` |
 | Who Warm Up sells to | `wiki/icp.md` |
 | Cold outreach methodology | `wiki/frameworks.md` (cold-outreach section) |

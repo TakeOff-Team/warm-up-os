@@ -30,6 +30,7 @@ Then start work.
 Warm-Up-OS/
 ├── CLAUDE.md              # You are here
 ├── INDEX.md               # Content catalog
+├── PLANNING.md            # Plan-first checklist — read before any new build
 ├── wiki/                  # How Warm Up operates (the company brain)
 ├── clients/               # Per-client context (one .md per client)
 ├── raw-context/           # Inbox — unsorted material (transcripts, briefs)
@@ -119,6 +120,12 @@ Before asking a human:
 5. Check `archive/` if it's a pattern from a prior client
 
 If still stuck, ask in #warm-up-os Slack channel or tag the operator who owns the relevant `wiki/` section.
+
+---
+
+## Starting a new build
+
+Before building anything new — a skill, a client automation, any infrastructure — read **`PLANNING.md`** and start in **plan mode** (`shift+tab`). Plan the build, check for an existing skill that already does it, get the plan approved, then execute. Don't skip to code.
 
 ---
 
