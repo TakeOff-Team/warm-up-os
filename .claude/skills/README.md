@@ -27,6 +27,7 @@ The body is the SOP. Tell Claude how to execute the task: required inputs, steps
 
 | Skill | Purpose |
 |-------|---------|
+| `warm-up-os-setup` | Guided, resumable first-run wizard — MCPs, keys, wiki interview, clients. Tracks progress in `.claude/setup-state.json` |
 | `client-context-from-url` | Scrape a client website + recent news → populate `clients/<name>.md` from template |
 | `octave-context-builder` | Build full Octave library structure from client materials |
 | `cold-outreach-orchestrator` | End-to-end cold outreach campaign |

@@ -2,6 +2,11 @@
 
 Get Warm-Up-OS running locally. ~15 minutes.
 
+> **Prefer the guided version?** Open the repo in Claude Code and run **`/warm-up-os-setup`** — it
+> walks you through everything below conversationally, interviews you to fill the wiki + client files,
+> and tracks your progress so you can stop and resume. This doc is the manual reference the wizard
+> leans on.
+
 ---
 
 ## 1. Install Claude Code

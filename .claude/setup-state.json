@@ -1,0 +1,16 @@
+{
+  "version": "0.5",
+  "started_at": null,
+  "completed_at": null,
+  "phases": {
+    "prereqs": "pending",
+    "tooling": "pending",
+    "env": "pending",
+    "services": "pending",
+    "icp": "pending",
+    "frameworks": "pending",
+    "team": "pending",
+    "clients": "pending"
+  },
+  "notes": ""
+}

@@ -15,9 +15,15 @@ git clone https://github.com/TakeOff-Team/warm-up-os.git
 cd warm-up-os
 ```
 
-1. **Install prerequisites** — Claude Code + the MCPs the skills use. See [`SETUP.md`](SETUP.md).
-2. **Open the folder in Claude Code.** It reads `CLAUDE.md` automatically and follows the session-start protocol.
-3. **Run your first play.** To onboard a client:
+1. **Install Claude Code** (see [`SETUP.md`](SETUP.md)) and open this folder in it. It reads `CLAUDE.md` automatically.
+2. **Run the setup wizard — this is the first thing to do:**
+   ```
+   /warm-up-os-setup
+   ```
+   It walks you through everything: connecting your tools (MCPs), your API keys, and a short interview
+   that teaches the system your services, ICP, playbooks, team, and clients. It tracks progress, so you
+   can stop and pick up later. You don't edit files — it does.
+3. **Then run your first play.** To onboard a client:
    ```
    /client-context-from-url https://theirsite.com
    ```

@@ -34,6 +34,7 @@ Content catalog. If you don't know where something is, search here first.
 
 | Skill | Location | What it does |
 |-------|----------|--------------|
+| warm-up-os-setup | `.claude/skills/warm-up-os-setup/SKILL.md` | First-run wizard — interviews you through MCPs, keys, wiki, and clients. Resumable via `.claude/setup-state.json` |
 | client-context-from-url | `.claude/skills/client-context-from-url/SKILL.md` | Scrapes a client website, builds Octave-shaped context file in `clients/<name>.md` |
 | octave-context-builder | `.claude/skills/octave-context-builder/SKILL.md` | Builds full Octave library structure (segments, personas, products) from client materials |
 | cold-outreach-orchestrator | `.claude/skills/cold-outreach-orchestrator/SKILL.md` | End-to-end cold outreach campaign builder (Octave → list → copy → review → push) |
@@ -44,6 +45,7 @@ Content catalog. If you don't know where something is, search here first.
 
 | Workflow | Skills involved | Entry point |
 |----------|-----------------|-------------|
+| First-time setup | warm-up-os-setup | `/warm-up-os-setup` |
 | Onboard new client | client-context-from-url → octave-context-builder | `/client-context-from-url <url>` |
 | Run cold outreach campaign | cold-outreach-orchestrator → defroster | `/cold-outreach-orchestrator` |
 | Update client context after a call | (manual) edit `clients/<name>.md`, drop transcript in `raw-context/transcripts/` | — |

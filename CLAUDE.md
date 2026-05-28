@@ -8,6 +8,11 @@ This is Warm Up's company operating system — the shared brain every team membe
 
 ## Session start protocol
 
+**First run?** Check `.claude/setup-state.json`. If it's missing or any phase is still `pending`, the
+OS isn't set up yet — run the **`warm-up-os-setup`** skill (`/warm-up-os-setup`) before anything else.
+It's a guided, resumable wizard that connects tools, collects keys, and interviews the operator to fill
+the wiki + client files. Once setup is complete, proceed normally.
+
 Read in this order:
 
 1. **This file** (`CLAUDE.md`) — operating principles + structure
